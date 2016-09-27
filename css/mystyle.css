@@ -1,0 +1,169 @@
+.header {
+    background: #222;
+    background-repeat: no-repeat;
+    background-position: center 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    padding: 138px 0 0;
+    text-align: center;
+    min-height: 400px;
+    position: relative;
+}
+
+.header h2 {
+    color: #fff;
+    padding: 0;
+    margin: 0 0 45px;
+    font-weight: 100;
+    font-size: 34px;
+}
+
+.logoimg {
+    position: absolute;
+    bottom: -34px;
+    left: 1px;
+    right: 1px;
+}
+
+.logotxt {
+    margin-bottom: 30px;
+    border: 0;
+}
+
+.logotxt a {
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.main {
+    margin-top: 90px;
+}
+
+.post {
+    position: relative;
+    margin-bottom: 30px;
+    padding-bottom: 40px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.1);
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+}
+
+.post-title {
+    position: absolute;
+    font-size: 24px;
+    z-index: 9;
+    bottom: 12px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    margin: 0;
+}
+
+.post-title a {
+    color: #777;
+}
+
+.pagination {
+    display: block;
+    position: relative;
+    text-align: center;
+    color: #666;
+    font-size: 13px;
+}
+
+.pagination > a.newer-posts {
+    left: 10px;
+}
+
+.pagination > a {
+    border: 1px solid #39414a;
+    position: absolute;
+    top: -10px;
+    padding: 10px;
+    color: #39414a;
+    white-space: normal;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.pagination > a.older-posts {
+    right: 10px;
+}
+
+.submit-site {
+    background-color: #eee;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 20px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.main-footer {
+    background: #202020;
+    padding: 35px 0 0;
+    color: #959595;
+}
+
+.main-footer .widget {
+    padding: 0 30px;
+}
+
+.main-footer .widget .title {
+    color: #fff;
+    border-bottom: 1px solid #303030;
+}
+
+.widget .friend-links a {
+    display: block;
+    border-bottom: 1px dashed #303030;
+    padding-bottom: 14px;
+    margin-bottom: 14px;
+    color: #959595;
+    transition: all .2s ease;
+}
+
+.widget .tag-cloud a:hover {
+    border: 1px solid #334ab7;
+}
+
+.widget .tag-cloud a {
+    border: 1px solid #303030;
+}
+
+.widget .tag-cloud a {
+    padding: 2px 7px;
+    color: #959595;
+    line-height: 1.5em;
+    display: inline-block;
+    margin: 0 7px 7px 0;
+    transition: all .2s ease;
+}
+
+.widget .tag-cloud a:hover {
+    padding: 2px 7px;
+    color: #fff;
+    background: #337ab7;
+    text-decoration: none;
+    line-height: 1.5em;
+    display: inline-block;
+    margin: 0 7px 7px 0;
+    transition: all .2s ease;
+}
+
+.copyright {
+    background: #111;
+    font-size: 13px;
+    text-align: center;
+    color: #555;
+    padding-top: 14px;
+    padding-bottom: 20px;
+    border-top: 1px solid #303030;
+}
+
+.copyright a {
+    color: #555;
+}
